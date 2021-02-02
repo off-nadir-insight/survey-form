@@ -7,6 +7,44 @@
 <body>
     <header></header>
     <nav></nav>
-    <main></main>
+    <main>
+        <div>
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Survey Description</p>
+        </div>
+        <form id="survey-form" action="#">
+            <label for="name">Name:</label>
+            <input id="name" type="text" placeholder="Enter your name" required>
+            <label for="email">Email:</label>
+            <input id="email" type="email" placeholder="Enter your email address" required>
+            <label for="number">Number:</label>
+            <input id="number" type="number" placeholder="Enter a number (1-5)" min="1" max="5">
+            <label for="dropdown">Dropdown options:</label>
+            <select name="options" id="dropdown">
+                <option value="a">Option A</option>
+                <option value="b">Option B</option>
+                <option value="c">Option C</option>
+            </select>
+            <input type="radio" id="one" name="name" value="1">
+            <label for="one">One</label>
+            <input type="radio" id="two" name="name" value="2">
+            <label for="two">Two</label>
+            <input type="radio" id="three" name="name" value="3">
+            <label for="three">Three</label>
+            <input type="checkbox" id="red" name="red" value="red">
+            <label for="red">Red</label><br>
+            <input type="checkbox" id="green" name="green" value="green">
+            <label for="green">Green</label><br>
+            <input type="checkbox" id="blue" name="blue" value="blue">
+            <label for="blue">Blue</label><br>
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4" cols="50">
+                Please make any additional comments in the box below
+            </textarea>
+            <input type="submit" value="Submit"
+        </form>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
 </body>
 </html>
