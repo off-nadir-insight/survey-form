@@ -12,32 +12,48 @@
             <p id="description"><em>sed do eiusmod tempor incididunt ut labore</em></p>
         </div>
         <form id="survey-form" action="#">
-            <label for="name" id="name-label">Name:</label>
-            <input id="name" type="text" placeholder="Enter your name" required>
-            <label for="email" id="email-label">Email:</label>
-            <input id="email" type="email" placeholder="Enter your email address" required>
-            <label for="number" id="number-label">Number:</label>
-            <input id="number" type="number" placeholder="Enter a number (1-5)" min="1" max="5">
-            <label for="dropdown">Dropdown options:</label>
-            <select name="options" id="dropdown">
-                <option value="a">Option A</option>
-                <option value="b">Option B</option>
-                <option value="c">Option C</option>
-            </select>
-            <input type="radio" id="one" name="name" value="1">
-            <label for="one">One</label>
-            <input type="radio" id="two" name="name" value="2">
-            <label for="two">Two</label>
-            <input type="radio" id="three" name="name" value="3">
-            <label for="three">Three</label>
-            <input type="checkbox" id="red" name="red" value="red">
-            <label for="red">Red</label><br>
-            <input type="checkbox" id="green" name="green" value="green">
-            <label for="green">Green</label><br>
-            <input type="checkbox" id="blue" name="blue" value="blue">
-            <label for="blue">Blue</label><br>
-            <label for="comments">Additional Comments:</label>
-            <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter additional feedback here."></textarea>
+            <div class="form-group">
+                <label for="name" id="name-label">Name:</label>
+                <input id="name" type="text" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email" id="email-label">Email:</label>
+                <input id="email" type="email" placeholder="Enter your email address" required>
+            </div>
+            <div class="form-group">
+                <label for="number" id="number-label">Number:</label>
+                <input id="number" type="number" placeholder="Enter a number (1-5)" min="1" max="5">
+            </div>
+            <div class="form-group">
+                <label for="dropdown">Facilisi ut porta ornare dictumst est sed:</label>
+                <select name="options" id="dropdown">
+                    <option value="a">Option A</option>
+                    <option value="b">Option B</option>
+                    <option value="c">Option C</option>
+                </select>
+            </div>
+            <div class="form-group">
+                Bibendum natoque ligula sapien:<br>
+                <input type="radio" id="one" name="name" value="1">
+                <label for="one">One</label><br>
+                <input type="radio" id="two" name="name" value="2">
+                <label for="two">Two</label><br>
+                <input type="radio" id="three" name="name" value="3">
+                <label for="three">Three</label><br>
+            </div>
+            <div class="form-group">
+                class potenti vel fusce integer egestas:<br>
+                <input type="checkbox" id="red" name="red" value="red">
+                <label for="red">Red</label><br>
+                <input type="checkbox" id="green" name="green" value="green">
+                <label for="green">Green</label><br>
+                <input type="checkbox" id="blue" name="blue" value="blue">
+                <label for="blue">Blue</label><br>
+            </div>
+            <div class="form-group">
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter additional feedback here."></textarea>
+            </div>
             <input type="submit" id="submit" value="Submit">
         </form>
     </main>

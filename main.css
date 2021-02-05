@@ -1,15 +1,48 @@
 *, *:before, *:after {
     box-sizing: border-box;
-    border: 1px solid black;
+    font-family: Poppins, sans-serif;
 }
 
 main {
     width: 75%;
+    height: 100%;
     margin: auto;
-    background-color: rgb(211, 211, 211);
+    background-color: #264653;
     padding: 1em 5em;
 }
 
 #title, #description {
+    color: white;
     padding-left: 1rem;
+}
+
+div {
+    margin: 1rem 0;
+}
+
+form {
+    color: black;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: #e9c46a;
+    display: block;
+}
+
+.form-group {
+    padding: 10px 5px;
+}
+
+#name, #email, #number, select, #comments{
+    padding: 0.5em;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#submit {
+    background-color: #2a9d8f;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    padding: 1em;
 }
